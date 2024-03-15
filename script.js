@@ -81,10 +81,23 @@ var add =jn.join("_");
 document.write(add);
 document.write("<br>");
 document.write("<br>");
-//
-document.write("<h1>First in method</h1>");
+// Question 13
+document.write("<h1>First in First out method</h1>");
 
 var device = ["saddam","rafiq","hamza","umair","junaid","qasim"];
 
-var add = device.shift();
-document.write(add)
+device.shift();
+document.write(device + "<br><br>");
+device.unshift("Siddique");
+document.write(device + "<br><br>");
+
+// Question 14
+document.write("<h1>Last in  First out method</h1>");
+
+var name_s = ["saddam","rafiq","hamza","umair","junaid","qasim"];
+
+name_s.pop();
+document.write(name_s + "<br><br>");
+name_s.push("Siddique");
+document.write(name_s + "<br><br>");
+
